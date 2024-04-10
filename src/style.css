@@ -1,0 +1,229 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke;
+}
+
+/* Header styles */
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 1.1;
+  background-color: #213a70;
+}
+
+/* Gas title styles */
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+  text-decoration-line: underline;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1em;
+  font-weight: 500;
+  color: #333;
+}
+
+label.select-label {
+  margin-right: 5px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+span {
+  margin: 5px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #213a70;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 0 5px;
+}
+button:hover {
+  background-color: #192d57;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.app-header {
+  background-color: #213a70;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Main container */
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Gas image styles */
+.gas-image {
+  width: 125px;
+  height: 125px;
+}
+
+/* Gas label styles */
+.gas-label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Gas count styles */
+.gas-count {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  align-items: center;
+}
+
+/* Select styles */
+select {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Input styles */
+input[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00badb;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Input styles on hover */
+input[type="submit"]:hover {
+  background-color: #03c4e6;
+}
+
+/* Image container styles */
+.image-container {
+  position: relative; /* Ensure the button container is positioned relative to this */
+}
+
+/* Gas lists section */
+.gas-lists {
+  display: flex;
+  justify-content: space-evenly;
+  width:80vw;
+}
+
+.gas-type {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  max-width: 40vw;
+}
+
+.propane, .butane {
+  display: flex;
+  flex-flow: column wrap;
+  height: 65vh;
+}
+
+.gas-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.line {
+  border-bottom: 2px solid black;
+}
+
+/* Add gas section */
+.add-gas {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
