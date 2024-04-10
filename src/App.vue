@@ -182,12 +182,12 @@ function stringToHashConversion(string) {
           
           <label for="gas_icon" class="select-label">Gas Icon
             <select v-model="gas_icon" required>
-              <option value=./cylinder_patio_5kg_1.jpg>5kg Patio</option>
-              <option value=./cylinder_patio_13kg_1.jpg>13kg Patio</option>
-              <option value=./cylinder_propane_6kg-.jpg>6kg Propane</option>
-              <option value=./cylinder_propane_13kg_1_3.jpg>13kg Propane</option>
-              <option value=./cylinder_butane_7kg_1.jpg>7kg Butane</option>
-              <option value=./cylinder_butane_15kg_1.jpg>15kg Butane</option>
+              <option value="./cylinder_patio_5kg_1.jpg">5kg Patio</option>
+              <option value="./cylinder_patio_13kg_1.jpg">13kg Patio</option>
+              <option value="./cylinder_propane_6kg-.jpg">6kg Propane</option>
+              <option value="./cylinder_propane_13kg_1_3.jpg">13kg Propane</option>
+              <option value="./cylinder_butane_7kg_1.jpg">7kg Butane</option>
+              <option value="./cylinder_butane_15kg_1.jpg">15kg Butane</option>
             </select>
           </label>
           <input type="submit" value="Add New Gas">
